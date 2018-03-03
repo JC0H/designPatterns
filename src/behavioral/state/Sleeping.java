@@ -1,8 +1,8 @@
 package behavioral.state;
 
-public class Sleep implements Action {
+public class Sleeping implements Action {
     @Override
-    public void perfomance() {
+    public void justDoIt() {
         System.out.println("Sleeping");
     }
 }

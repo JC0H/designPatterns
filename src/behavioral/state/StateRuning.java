@@ -1,14 +1,12 @@
 package behavioral.state;
 
-public class DeveloperDay {
+public class StateRuning {
     public static void main(String[] args) {
-        Action action = new Sleep();
         Developer developer = new Developer();
+        developer.setAction(new Sleeping());
 
-        developer.setAction(action);
-
-        for (int i = 0; i < 10; i++) {
-            developer.perfomance();
+        for (int i = 0; i < 10; i++){
+            developer.executeActivity();
             developer.changeActivity();
         }
     }

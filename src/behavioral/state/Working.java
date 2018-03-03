@@ -2,7 +2,7 @@ package behavioral.state;
 
 public class Working implements Action {
     @Override
-    public void perfomance() {
+    public void justDoIt() {
         System.out.println("Working");
     }
 }

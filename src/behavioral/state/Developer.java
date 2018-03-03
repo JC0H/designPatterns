@@ -8,16 +8,16 @@ public class Developer {
     }
 
     public void changeActivity(){
-        if (action instanceof Sleep){
+        if (action instanceof Sleeping){
             setAction(new Working());
         }else if (action instanceof Working){
             setAction(new Reading());
         }else if (action instanceof Reading){
-            setAction(new Sleep());
+            setAction(new Sleeping());
         }
     }
 
-    public void perfomance(){
-        action.perfomance();
+    public void executeActivity(){
+        action.justDoIt();
     }
 }
