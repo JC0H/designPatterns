@@ -13,6 +13,11 @@ Create simple examples of using main templates. Implementation on Java language.
 * Astract Factory - Provide an interface for creating families of related or dependent objects without
 specifying their concrete classes.
 
+* Factory Method - Define an interface for creating an object, but let subclasses decide which class to
+instantiate. Factory Method lets a class defer instantiation to subclasses.
+
+* Singleton - Ensure a class only has one instance, and provide a global point of access to it.
+
 
 
 
