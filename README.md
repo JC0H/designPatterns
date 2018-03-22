@@ -21,4 +21,5 @@ instantiate. Factory Method lets a class defer instantiation to subclasses.
 * Prototype - Specify the kinds of objects to create using a prototypical instance, and create new
 objects by copying this prototype.
 
-
+* Builder - Separate the construction of a complex object from its representation so that the same
+construction process can create different representations.
