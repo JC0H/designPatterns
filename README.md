@@ -8,6 +8,8 @@ Create simple examples of using main templates. Implementation on Java language.
 
 * Chain of Responsibility - Decouples the sender of request and it's receiver. Simplyfies objects because they doesn't  have to know the chains structure.
 
+* Command - Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
+
 ### - Creational - They help make a system independent of how its objects are created, composed, and represented.That type of patterns will delegate instantiation to another object.
 
 * Astract Factory - Provide an interface for creating families of related or dependent objects without
